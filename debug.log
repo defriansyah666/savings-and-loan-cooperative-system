@@ -1,0 +1,650 @@
+[1] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+Gagal mengirim email verifikasi: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[1] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+Gagal mengirim email verifikasi: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[1] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+Gagal mengirim email verifikasi: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[2] SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[1] CLIENT -> SERVER: AUTH CRAM-MD5
+
+[2] SERVER -> CLIENT: 334 PDE0ODEzMTExNzMuMTc0MjU4MjczNkBzbXRwLm1haWx0cmFwLmlvPg==
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.0.0 OK
+
+[1] CLIENT -> SERVER: MAIL FROM:<no-reply@koperasi.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: RCPT TO:<deffsyah@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead
+
+[1] CLIENT -> SERVER: Date: Fri, 21 Mar 2025 19:45:33 +0100
+
+[1] CLIENT -> SERVER: To: DeffGoks ' <deffsyah@gmail.com>
+
+[1] CLIENT -> SERVER: From: Sistem Koperasi Terpadu <no-reply@koperasi.com>
+
+[1] CLIENT -> SERVER: Subject: Verifikasi Email - Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: Message-ID: <ocgGqRSUid3gad3sTz0NIEajSy0xX7IBTArHcLRkpw@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_ocgGqRSUid3gad3sTz0NIEajSy0xX7IBTArHcLRkpw"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ocgGqRSUid3gad3sTz0NIEajSy0xX7IBTArHcLRkpw
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Halo DeffGoks ',
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Verifikasi email Anda di: http://localhost/bank-system/public/verify.php?token=63c69c8a29fa4ec8a5c7a163bf09f8ec
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Salam,
+
+[1] CLIENT -> SERVER: Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ocgGqRSUid3gad3sTz0NIEajSy0xX7IBTArHcLRkpw
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:             <h2>Verifikasi Email Anda</h2>
+
+[1] CLIENT -> SERVER:             <p>Halo DeffGoks ',</p>
+
+[1] CLIENT -> SERVER:             <p>Terima kasih telah mendaftar di Sistem Koperasi Terpadu. Silakan klik link berikut untuk memverifikasi email Anda:</p>
+
+[1] CLIENT -> SERVER:             <p><a href='http://localhost/bank-system/public/verify.php?token=63c69c8a29fa4ec8a5c7a163bf09f8ec' style='color: #1a73e8;'>Verifikasi Email</a></p>
+
+[1] CLIENT -> SERVER:             <p>Jika Anda tidak mendaftar, abaikan email ini.</p>
+
+[1] CLIENT -> SERVER:             <p>Salam,<br>Sistem Koperasi Terpadu</p>
+
+[1] CLIENT -> SERVER:         
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_ocgGqRSUid3gad3sTz0NIEajSy0xX7IBTArHcLRkpw--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 Ok: queued
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+Email successfully sent to deffsyah@gmail.com
+[2] SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[1] CLIENT -> SERVER: AUTH CRAM-MD5
+
+[2] SERVER -> CLIENT: 334 PDE2ODE2ODU4OTQuMTc0MjU4MjkzMEBzbXRwLm1haWx0cmFwLmlvPg==
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.0.0 OK
+
+[1] CLIENT -> SERVER: MAIL FROM:<defriansyah666@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: RCPT TO:<deffsyah@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead
+
+[1] CLIENT -> SERVER: Date: Fri, 21 Mar 2025 19:48:47 +0100
+
+[1] CLIENT -> SERVER: To: DeffGoks ' <deffsyah@gmail.com>
+
+[1] CLIENT -> SERVER: From: Sistem Koperasi Terpadu <defriansyah666@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Verifikasi Email - Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: Message-ID: <VeGKtB0yv4eOZEajnETwzsLPghxJtiZQ2glsBNhEo@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_VeGKtB0yv4eOZEajnETwzsLPghxJtiZQ2glsBNhEo"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VeGKtB0yv4eOZEajnETwzsLPghxJtiZQ2glsBNhEo
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Halo DeffGoks ',
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Verifikasi email Anda di: http://localhost/bank-system/public/verify.php?token=46007e07943d3f23c3b7ceb861c1943a
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Salam,
+
+[1] CLIENT -> SERVER: Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VeGKtB0yv4eOZEajnETwzsLPghxJtiZQ2glsBNhEo
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:             <h2>Verifikasi Email Anda</h2>
+
+[1] CLIENT -> SERVER:             <p>Halo DeffGoks ',</p>
+
+[1] CLIENT -> SERVER:             <p>Terima kasih telah mendaftar di Sistem Koperasi Terpadu. Silakan klik link berikut untuk memverifikasi email Anda:</p>
+
+[1] CLIENT -> SERVER:             <p><a href='http://localhost/bank-system/public/verify.php?token=46007e07943d3f23c3b7ceb861c1943a' style='color: #1a73e8;'>Verifikasi Email</a></p>
+
+[1] CLIENT -> SERVER:             <p>Jika Anda tidak mendaftar, abaikan email ini.</p>
+
+[1] CLIENT -> SERVER:             <p>Salam,<br>Sistem Koperasi Terpadu</p>
+
+[1] CLIENT -> SERVER:         
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_VeGKtB0yv4eOZEajnETwzsLPghxJtiZQ2glsBNhEo--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 Ok: queued
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+Email successfully sent to deffsyah@gmail.com
+[2] SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[1] CLIENT -> SERVER: AUTH CRAM-MD5
+
+[2] SERVER -> CLIENT: 334 PDc3MzYwMzU0LjE3NDI1ODMyNjJAc210cC5tYWlsdHJhcC5pbz4=
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.0.0 OK
+
+[1] CLIENT -> SERVER: MAIL FROM:<defriansyah666@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: RCPT TO:<deffsyah@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead
+
+[1] CLIENT -> SERVER: Date: Fri, 21 Mar 2025 19:54:19 +0100
+
+[1] CLIENT -> SERVER: To: DeffGoks ' <deffsyah@gmail.com>
+
+[1] CLIENT -> SERVER: From: Sistem Koperasi Terpadu <defriansyah666@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Verifikasi Email - Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: Message-ID: <37phEBu6BPYfx5c7YGFyPzTom8ANoUeCs09YRqLm8@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_37phEBu6BPYfx5c7YGFyPzTom8ANoUeCs09YRqLm8"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_37phEBu6BPYfx5c7YGFyPzTom8ANoUeCs09YRqLm8
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Halo DeffGoks ',
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Verifikasi email Anda di: http://localhost/bank-system/public/verify.php?token=46e6ebea0ca0c3cf2be655eb5fe6a47a
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Salam,
+
+[1] CLIENT -> SERVER: Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_37phEBu6BPYfx5c7YGFyPzTom8ANoUeCs09YRqLm8
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:             <h2>Verifikasi Email Anda</h2>
+
+[1] CLIENT -> SERVER:             <p>Halo DeffGoks ',</p>
+
+[1] CLIENT -> SERVER:             <p>Terima kasih telah mendaftar di Sistem Koperasi Terpadu. Silakan klik link berikut untuk memverifikasi email Anda:</p>
+
+[1] CLIENT -> SERVER:             <p><a href='http://localhost/bank-system/public/verify.php?token=46e6ebea0ca0c3cf2be655eb5fe6a47a' style='color: #1a73e8;'>Verifikasi Email</a></p>
+
+[1] CLIENT -> SERVER:             <p>Jika Anda tidak mendaftar, abaikan email ini.</p>
+
+[1] CLIENT -> SERVER:             <p>Salam,<br>Sistem Koperasi Terpadu</p>
+
+[1] CLIENT -> SERVER:         
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_37phEBu6BPYfx5c7YGFyPzTom8ANoUeCs09YRqLm8--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 Ok: queued
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+Email successfully sent to deffsyah@gmail.com
+[2] SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[1] CLIENT -> SERVER: AUTH CRAM-MD5
+
+[2] SERVER -> CLIENT: 334 PDEyNTE4MDc0MjIuMTc0MjU4MzM0N0BzbXRwLm1haWx0cmFwLmlvPg==
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.0.0 OK
+
+[1] CLIENT -> SERVER: MAIL FROM:<defriansyah666@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: RCPT TO:<deffsyah@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead
+
+[1] CLIENT -> SERVER: Date: Fri, 21 Mar 2025 19:55:44 +0100
+
+[1] CLIENT -> SERVER: To: DeffGoks ' <deffsyah@gmail.com>
+
+[1] CLIENT -> SERVER: From: Sistem Koperasi Terpadu <defriansyah666@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Verifikasi Email - Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: Message-ID: <mTc0xr4RMqNdgHsGMlXPDY5KMaKs1K4rKpOxCwcU@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_mTc0xr4RMqNdgHsGMlXPDY5KMaKs1K4rKpOxCwcU"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_mTc0xr4RMqNdgHsGMlXPDY5KMaKs1K4rKpOxCwcU
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Halo DeffGoks ',
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Verifikasi email Anda di: http://localhost/bank-system/public/verify.php?token=746376489081767e628feca743923623
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Salam,
+
+[1] CLIENT -> SERVER: Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_mTc0xr4RMqNdgHsGMlXPDY5KMaKs1K4rKpOxCwcU
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:             <h2>Verifikasi Email Anda</h2>
+
+[1] CLIENT -> SERVER:             <p>Halo DeffGoks ',</p>
+
+[1] CLIENT -> SERVER:             <p>Terima kasih telah mendaftar di Sistem Koperasi Terpadu. Silakan klik link berikut untuk memverifikasi email Anda:</p>
+
+[1] CLIENT -> SERVER:             <p><a href='http://localhost/bank-system/public/verify.php?token=746376489081767e628feca743923623' style='color: #1a73e8;'>Verifikasi Email</a></p>
+
+[1] CLIENT -> SERVER:             <p>Jika Anda tidak mendaftar, abaikan email ini.</p>
+
+[1] CLIENT -> SERVER:             <p>Salam,<br>Sistem Koperasi Terpadu</p>
+
+[1] CLIENT -> SERVER:         
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_mTc0xr4RMqNdgHsGMlXPDY5KMaKs1K4rKpOxCwcU--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 Ok: queued
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+Email successfully sent to deffsyah@gmail.com
+[2] SERVER -> CLIENT: 220 smtp.mailtrap.io ESMTP ready
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 STARTTLS
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.mailtrap.io
+250-SIZE 5242880
+250-PIPELINING
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 AUTH PLAIN LOGIN CRAM-MD5
+
+[1] CLIENT -> SERVER: AUTH CRAM-MD5
+
+[2] SERVER -> CLIENT: 334 PDg1NjY2Mjg4NS4xNzQyNTgzNDE0QHNtdHAubWFpbHRyYXAuaW8+
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.0.0 OK
+
+[1] CLIENT -> SERVER: MAIL FROM:<defriansyah666@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: RCPT TO:<deffsyah@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead
+
+[1] CLIENT -> SERVER: Date: Fri, 21 Mar 2025 19:56:51 +0100
+
+[1] CLIENT -> SERVER: To: DeffGoks ' <deffsyah@gmail.com>
+
+[1] CLIENT -> SERVER: From: Sistem Koperasi Terpadu <defriansyah666@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: Verifikasi Email - Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: Message-ID: <fVriZ8n9krMmuoWCjqnDBNPNENdq77fE2q7zEmeoo@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[1] CLIENT -> SERVER:  boundary="b1=_fVriZ8n9krMmuoWCjqnDBNPNENdq77fE2q7zEmeoo"
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fVriZ8n9krMmuoWCjqnDBNPNENdq77fE2q7zEmeoo
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Halo DeffGoks ',
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Verifikasi email Anda di: http://localhost/tes/public/verify.php?token=dd625272ba38822efb274e0a4db58a5e
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: Salam,
+
+[1] CLIENT -> SERVER: Sistem Koperasi Terpadu
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fVriZ8n9krMmuoWCjqnDBNPNENdq77fE2q7zEmeoo
+
+[1] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER:             <h2>Verifikasi Email Anda</h2>
+
+[1] CLIENT -> SERVER:             <p>Halo DeffGoks ',</p>
+
+[1] CLIENT -> SERVER:             <p>Terima kasih telah mendaftar di Sistem Koperasi Terpadu. Silakan klik link berikut untuk memverifikasi email Anda:</p>
+
+[1] CLIENT -> SERVER:             <p><a href='http://localhost/tes/public/verify.php?token=dd625272ba38822efb274e0a4db58a5e' style='color: #1a73e8;'>Verifikasi Email</a></p>
+
+[1] CLIENT -> SERVER:             <p>Jika Anda tidak mendaftar, abaikan email ini.</p>
+
+[1] CLIENT -> SERVER:             <p>Salam,<br>Sistem Koperasi Terpadu</p>
+
+[1] CLIENT -> SERVER:         
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: --b1=_fVriZ8n9krMmuoWCjqnDBNPNENdq77fE2q7zEmeoo--
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 Ok: queued
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+Email successfully sent to deffsyah@gmail.com
+[1] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+Gagal mengirim email verifikasi: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[1] SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+Gagal mengirim email verifikasi: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
